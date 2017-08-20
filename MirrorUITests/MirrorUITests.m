@@ -2,9 +2,10 @@
 //  MirrorUITests.m
 //  MirrorUITests
 //
-//  Created by Gitesh Kothavale on 17/04/17.
-//  Copyright © 2017 Gitesh Kothavale. All rights reserved.
+//  Created by Shailesh on 17/04/17.
+//  Copyright © 2017 Shailesh. All rights reserved.
 //
+
 
 #import <XCTest/XCTest.h>
 

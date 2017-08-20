@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		32E32DD61EA6225A001C2A4B /* libdlib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 32E32DD51EA6225A001C2A4B /* libdlib.a */; };
+		32E32DD81EA6227A001C2A4B /* shape_predictor_68_face_landmarks.dat in Resources */ = {isa = PBXBuildFile; fileRef = 32E32DD71EA6227A001C2A4B /* shape_predictor_68_face_landmarks.dat */; };
+		32E32DDA1EA622A1001C2A4B /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32E32DD91EA622A1001C2A4B /* Accelerate.framework */; };
+		32E32DDD1EA622E7001C2A4B /* DlibWrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 32E32DDC1EA622E7001C2A4B /* DlibWrapper.mm */; };
 		32F3963F1EA4B461003F47E3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 32F3963E1EA4B461003F47E3 /* main.m */; };
 		32F396421EA4B461003F47E3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 32F396411EA4B461003F47E3 /* AppDelegate.m */; };
 		32F396451EA4B461003F47E3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32F396441EA4B461003F47E3 /* ViewController.m */; };
@@ -15,6 +19,13 @@
 		32F3964D1EA4B462003F47E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32F3964B1EA4B462003F47E3 /* LaunchScreen.storyboard */; };
 		32F396581EA4B462003F47E3 /* MirrorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 32F396571EA4B462003F47E3 /* MirrorTests.m */; };
 		32F396631EA4B462003F47E3 /* MirrorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 32F396621EA4B462003F47E3 /* MirrorUITests.m */; };
+		32F396721EA4BCA7003F47E3 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32F396711EA4BCA7003F47E3 /* AVFoundation.framework */; };
+		32F396741EA4BCBF003F47E3 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32F396731EA4BCBF003F47E3 /* CoreVideo.framework */; };
+		32F396761EA4BCCD003F47E3 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32F396751EA4BCCD003F47E3 /* CoreMedia.framework */; };
+		32F396781EA4BCDA003F47E3 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32F396771EA4BCDA003F47E3 /* ImageIO.framework */; };
+		32F3967A1EA4BCE2003F47E3 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32F396791EA4BCE2003F47E3 /* CoreImage.framework */; };
+		32F3967C1EA4BCF4003F47E3 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32F3967B1EA4BCF4003F47E3 /* QuartzCore.framework */; };
+		32F3967E1EA4C333003F47E3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32F3967D1EA4C333003F47E3 /* CoreGraphics.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +46,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		32779CE61EA7A93A00993993 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
+		32E32DD51EA6225A001C2A4B /* libdlib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libdlib.a; path = Mirror/lib/libdlib.a; sourceTree = "<group>"; };
+		32E32DD71EA6227A001C2A4B /* shape_predictor_68_face_landmarks.dat */ = {isa = PBXFileReference; lastKnownFileType = file; name = shape_predictor_68_face_landmarks.dat; path = Mirror/lib/shape_predictor_68_face_landmarks.dat; sourceTree = "<group>"; };
+		32E32DD91EA622A1001C2A4B /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		32E32DDB1EA622E7001C2A4B /* DlibWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DlibWrapper.h; sourceTree = "<group>"; };
+		32E32DDC1EA622E7001C2A4B /* DlibWrapper.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = DlibWrapper.mm; sourceTree = "<group>"; };
 		32F3963A1EA4B461003F47E3 /* Mirror.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mirror.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32F3963E1EA4B461003F47E3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32F396401EA4B461003F47E3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +68,13 @@
 		32F3965E1EA4B462003F47E3 /* MirrorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MirrorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		32F396621EA4B462003F47E3 /* MirrorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MirrorUITests.m; sourceTree = "<group>"; };
 		32F396641EA4B462003F47E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32F396711EA4BCA7003F47E3 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		32F396731EA4BCBF003F47E3 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		32F396751EA4BCCD003F47E3 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		32F396771EA4BCDA003F47E3 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		32F396791EA4BCE2003F47E3 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		32F3967B1EA4BCF4003F47E3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		32F3967D1EA4C333003F47E3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +82,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32E32DDA1EA622A1001C2A4B /* Accelerate.framework in Frameworks */,
+				32E32DD61EA6225A001C2A4B /* libdlib.a in Frameworks */,
+				32F3967E1EA4C333003F47E3 /* CoreGraphics.framework in Frameworks */,
+				32F3967C1EA4BCF4003F47E3 /* QuartzCore.framework in Frameworks */,
+				32F3967A1EA4BCE2003F47E3 /* CoreImage.framework in Frameworks */,
+				32F396781EA4BCDA003F47E3 /* ImageIO.framework in Frameworks */,
+				32F396761EA4BCCD003F47E3 /* CoreMedia.framework in Frameworks */,
+				32F396741EA4BCBF003F47E3 /* CoreVideo.framework in Frameworks */,
+				32F396721EA4BCA7003F47E3 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,10 +114,12 @@
 		32F396311EA4B461003F47E3 = {
 			isa = PBXGroup;
 			children = (
+				32E32DD71EA6227A001C2A4B /* shape_predictor_68_face_landmarks.dat */,
 				32F3963C1EA4B461003F47E3 /* Mirror */,
 				32F396561EA4B462003F47E3 /* MirrorTests */,
 				32F396611EA4B462003F47E3 /* MirrorUITests */,
 				32F3963B1EA4B461003F47E3 /* Products */,
+				32F396701EA4BCA7003F47E3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +140,8 @@
 				32F396411EA4B461003F47E3 /* AppDelegate.m */,
 				32F396431EA4B461003F47E3 /* ViewController.h */,
 				32F396441EA4B461003F47E3 /* ViewController.m */,
+				32E32DDB1EA622E7001C2A4B /* DlibWrapper.h */,
+				32E32DDC1EA622E7001C2A4B /* DlibWrapper.mm */,
 				32F396461EA4B461003F47E3 /* Main.storyboard */,
 				32F396491EA4B462003F47E3 /* Assets.xcassets */,
 				32F3964B1EA4B462003F47E3 /* LaunchScreen.storyboard */,
@@ -138,6 +175,23 @@
 				32F396641EA4B462003F47E3 /* Info.plist */,
 			);
 			path = MirrorUITests;
+			sourceTree = "<group>";
+		};
+		32F396701EA4BCA7003F47E3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				32779CE61EA7A93A00993993 /* opencv2.framework */,
+				32E32DD91EA622A1001C2A4B /* Accelerate.framework */,
+				32E32DD51EA6225A001C2A4B /* libdlib.a */,
+				32F3967D1EA4C333003F47E3 /* CoreGraphics.framework */,
+				32F3967B1EA4BCF4003F47E3 /* QuartzCore.framework */,
+				32F396791EA4BCE2003F47E3 /* CoreImage.framework */,
+				32F396771EA4BCDA003F47E3 /* ImageIO.framework */,
+				32F396751EA4BCCD003F47E3 /* CoreMedia.framework */,
+				32F396731EA4BCBF003F47E3 /* CoreVideo.framework */,
+				32F396711EA4BCA7003F47E3 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,7 +261,7 @@
 				TargetAttributes = {
 					32F396391EA4B461003F47E3 = {
 						CreatedOnToolsVersion = 8.2;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					32F396521EA4B462003F47E3 = {
 						CreatedOnToolsVersion = 8.2;
@@ -246,6 +300,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32E32DD81EA6227A001C2A4B /* shape_predictor_68_face_landmarks.dat in Resources */,
 				32F3964D1EA4B462003F47E3 /* LaunchScreen.storyboard in Resources */,
 				32F3964A1EA4B462003F47E3 /* Assets.xcassets in Resources */,
 				32F396481EA4B461003F47E3 /* Main.storyboard in Resources */,
@@ -275,6 +330,7 @@
 			files = (
 				32F396451EA4B461003F47E3 /* ViewController.m in Sources */,
 				32F396421EA4B461003F47E3 /* AppDelegate.m in Sources */,
+				32E32DDD1EA622E7001C2A4B /* DlibWrapper.mm in Sources */,
 				32F3963F1EA4B461003F47E3 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -424,8 +480,40 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					DLIB_JPEG_SUPPORT,
+					DLIB_NO_GUI_SUPPORT,
+					DLIB_USE_BLAS,
+					DLIB_USE_LAPACK,
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Mirror/lib",
+				);
+				"HEADER_SEARCH_PATHS[arch=*]" = "$(inherited)";
 				INFOPLIST_FILE = Mirror/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Mirror/lib",
+				);
+				OTHER_CFLAGS = (
+					"-DDLIB_JPEG_SUPPORT",
+					"-DDLIB_NO_GUI_SUPPORT",
+					"-DNDEBUG",
+					"-DDLIB_USE_BLAS",
+					"-DDLIB_USE_LAPACK",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DDLIB_JPEG_SUPPORT",
+					"-DDLIB_NO_GUI_SUPPORT",
+					"-DNDEBUG",
+					"-DDLIB_USE_BLAS",
+					"-DDLIB_USE_LAPACK",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = DynaLibrary17.Mirror;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -435,8 +523,39 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					DLIB_JPEG_SUPPORT,
+					DLIB_NO_GUI_SUPPORT,
+					DLIB_USE_BLAS,
+					DLIB_USE_LAPACK,
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Mirror/lib",
+				);
 				INFOPLIST_FILE = Mirror/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Mirror/lib",
+				);
+				OTHER_CFLAGS = (
+					"-DDLIB_JPEG_SUPPORT",
+					"-DDLIB_NO_GUI_SUPPORT",
+					"-DNDEBUG",
+					"-DDLIB_USE_BLAS",
+					"-DDLIB_USE_LAPACK",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DDLIB_JPEG_SUPPORT",
+					"-DDLIB_NO_GUI_SUPPORT",
+					"-DNDEBUG",
+					"-DDLIB_USE_BLAS",
+					"-DDLIB_USE_LAPACK",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = DynaLibrary17.Mirror;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -507,6 +626,7 @@
 				32F396691EA4B462003F47E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		32F3966A1EA4B462003F47E3 /* Build configuration list for PBXNativeTarget "MirrorTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +635,7 @@
 				32F3966C1EA4B462003F47E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		32F3966D1EA4B462003F47E3 /* Build configuration list for PBXNativeTarget "MirrorUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +644,7 @@
 				32F3966F1EA4B462003F47E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
